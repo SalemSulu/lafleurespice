@@ -1,0 +1,169 @@
+﻿<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Fleur Spice | Épices et saveurs authentiques</title>
+    <meta
+      name="description"
+      content="La Fleur Spice propose des épices artisanales, des mélanges bio et des recettes inspirées pour sublimer votre cuisine."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand" aria-label="Accueil La Fleur Spice">
+          <img
+            src="img/image1.png"
+            alt="Logo La Fleur Spice"
+            class="brand-logo"
+          />
+        </a>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="index.html" class="active">Accueil</a>
+          <a href="about.html">À propos</a>
+          <a href="products.html">Produits</a>
+          <a href="recipes.html">Recettes</a>
+          <a href="quality.html">Qualité</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+          <a href="shop.html">Boutique</a>
+        </nav>
+
+        <button class="menu-toggle" type="button" aria-label="Menu mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h1>Discutons vos envies culinaires.</h1>
+          <p>
+            Nous sommes à votre écoute pour vous conseiller et répondre à vos
+            questions.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="container contact-grid">
+          <div class="contact-info-grid">
+            <article class="contact-card bloc">
+              <div class="contact-row">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <h3>Adresse</h3>
+                  <p>
+                    3ème Rue Limete Industrielle, Kinshasa, Democratic Republic
+                    of the Congo
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="contact-card bloc">
+              <div class="contact-row">
+                <div class="contact-icon">☎️</div>
+                <div>
+                  <h3>Téléphone</h3>
+                  <p>+243 976 460 917</p>
+                </div>
+              </div>
+            </article>
+            <article class="contact-card bloc">
+              <div class="contact-row">
+                <div class="contact-icon">✉️</div>
+                <div>
+                  <h3>Email</h3>
+                  <p>info@lafleurspice.com</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="bloc">
+            <form
+              class="newsletter-form"
+              style="
+                display: grid;
+                gap: 12px;
+                background: #fff;
+                padding: 24px;
+                border-radius: 24px;
+                box-shadow: 0 18px 38px rgba(31, 45, 31, 0.06);
+              "
+            >
+              <input type="text" placeholder="Votre nom" required />
+              <input type="email" placeholder="Votre email" required />
+              <input type="text" placeholder="Objet" required />
+              <textarea
+                rows="5"
+                placeholder="Votre message"
+                required
+              ></textarea>
+              <button type="submit" class="newsletter-btn">Envoyer</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container autoShow">
+          <div class="map-box">Carte interactive / emplacement boutique</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img
+            src="img/image1.png"
+            alt="Logo La Fleur Spice"
+            class="brand-logo"
+          />
+          <p>Épices de qualité, recettes inspirées et cuisine généreuse.</p>
+        </div>
+
+        <div>
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="products.html">Produits</a></li>
+            <li><a href="recipes.html">Recettes</a></li>
+            <li><a href="quality.html">Qualité</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="shop.html">Boutique</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>info@lafleurspice.com</li>
+            <li>+243 976 460 917</li>
+            <li>
+              3ème Rue Limete Industrielle, Kinshasa, Democratic Republic of the
+              Congo
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© <span id="year"></span> La Fleur Spice. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
